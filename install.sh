@@ -24,7 +24,7 @@ create_mainfest_file(){
     fi
     echo "内存大小：${IBM_MEM_SIZE}"
     echo "生成随机UUID：${UUID}"
-    UUID=$(cat /proc/sys/kernel/random/uuid)
+    UUID="874beebe-a9a7-4e33-a893-0dbb7a7e0dd3"
     echo "生成随机UUID：${UUID}"
     
     # 设置容器配置文件
@@ -152,7 +152,7 @@ install(){
       "net": "ws",
       "type": "none",
       "host": "",
-      "path": "${WSPATH}",
+      "path": "dqerggpipkadfh",
       "tls": "tls"
     }
 EOF
