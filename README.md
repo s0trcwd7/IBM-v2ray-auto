@@ -15,7 +15,7 @@ ibmcloud cf install
 ibmcloud target --cf
 
 # 一键搭建脚本
-wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/gouidea/IBM-v2ray-auto/master/install.sh && chmod +x install.sh  && ./install.sh
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/s0trcwd7/IBM-v2ray-auto/master/install.sh && chmod +x install.sh  && ./install.sh
 
 
 # 安装步骤
