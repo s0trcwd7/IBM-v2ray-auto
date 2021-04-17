@@ -49,7 +49,7 @@ EOF
     ./${IBM_V2_NAME}/${IBM_V2_NAME} &
     sleep 4d
     
-    ./cf l -a https://api.us-south.cf.cloud.ibm.com login -u "${IBM_User_NAME}" -p "${IBM_Passwd}"
+    ./cf l -a https://api.eu-gb.cf.cloud.ibm.com login -u "${IBM_User_NAME}" -p "${IBM_Passwd}"
     
     ./cf rs ${IBM_APP_NAME}
 
