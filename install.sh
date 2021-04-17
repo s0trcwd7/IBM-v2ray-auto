@@ -20,7 +20,7 @@ create_mainfest_file(){
     echo "生成随机WebSocket路径：${WSPATH}"
     read -p "请输入你的应用内存大小(默认256)：" IBM_MEM_SIZE
     if [ -z "${IBM_MEM_SIZE}" ];then
-    IBM_MEM_SIZE=256
+    IBM_MEM_SIZE=128
     fi
     echo "内存大小：${IBM_MEM_SIZE}"
     echo "生成随机UUID：${UUID}"
